@@ -15,8 +15,8 @@ int main() {
 	scanf("%d", &n);
 	printf("input K: ");
 	scanf("%d", &k);
-	long result = factorial(n) / ( factorial(n - k) * factorial(k) ); // Формула для нахождения сочетаний
-	printf("total combinations: %d", result);
+	long long result = factorial(n) / ( factorial(n - k) * factorial(k) ); // Формула для нахождения сочетаний
+	printf("total combinations: %I64d", result);
 
 
 	return result;
